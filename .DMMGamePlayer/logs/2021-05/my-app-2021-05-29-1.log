@@ -1,0 +1,927 @@
+2021-05-29T00:07:12,414 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-29T00:07:12,537 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-62] LibraryTask started. This task correct mygame list data from server.
+2021-05-29T00:07:12,547 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-62] start api name:[mygame]
+2021-05-29T00:07:13,370 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-62] libraryAPI success
+2021-05-29T00:22:12,417 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-29T00:22:12,451 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-63] LibraryTask started. This task correct mygame list data from server.
+2021-05-29T00:22:12,458 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-63] start api name:[mygame]
+2021-05-29T00:22:13,921 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-63] libraryAPI success
+2021-05-29T22:10:16,680 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-759667] [WebSocket error occured]
+2021-05-29T22:10:16,762 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-759667] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:10:16,821 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:10:36,561 ERROR [dmm.googleanalytics.GoogleAnalyticsHttpClient] [DmmCashDaemon-POOL-1-THREAD-133] ssl.google-analytics.com
+java.net.UnknownHostException: ssl.google-analytics.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.googleanalytics.GoogleAnalyticsHttpClient.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:10:40,834 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-760161] [WebSocket error occured]
+2021-05-29T22:10:40,836 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-760161] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:10:40,841 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:11:07,845 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-760811] [WebSocket error occured]
+2021-05-29T22:11:07,848 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-760811] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:11:07,861 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:11:37,863 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-761045] [WebSocket error occured]
+2021-05-29T22:11:37,863 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-761045] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:11:37,863 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:12:10,866 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-761656] [WebSocket error occured]
+2021-05-29T22:12:10,867 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-761656] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:12:10,868 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:12:46,869 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-762521] [WebSocket error occured]
+2021-05-29T22:12:46,870 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-762521] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:12:46,870 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:13:25,878 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-763458] [WebSocket error occured]
+2021-05-29T22:13:25,878 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-763458] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:13:25,880 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:13:31,948 ERROR [dmm.googleanalytics.GoogleAnalyticsHttpClient] [DmmCashDaemon-POOL-1-THREAD-133] ssl.google-analytics.com
+java.net.UnknownHostException: ssl.google-analytics.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.googleanalytics.GoogleAnalyticsHttpClient.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:13:33,259 ERROR [dmm.googleanalytics.GoogleAnalyticsHttpClient] [DmmCashDaemon-POOL-1-THREAD-133] ssl.google-analytics.com
+java.net.UnknownHostException: ssl.google-analytics.com
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.googleanalytics.GoogleAnalyticsHttpClient.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:13:34,418 ERROR [dmm.googleanalytics.GoogleAnalyticsHttpClient] [DmmCashDaemon-POOL-1-THREAD-133] ssl.google-analytics.com
+java.net.UnknownHostException: ssl.google-analytics.com
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.googleanalytics.GoogleAnalyticsHttpClient.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:14:07,880 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-763802] [WebSocket error occured]
+2021-05-29T22:14:07,881 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-763802] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:14:07,881 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:14:40,760 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-29T22:14:40,767 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-64] LibraryTask started. This task correct mygame list data from server.
+2021-05-29T22:14:40,771 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-64] start api name:[mygame]
+2021-05-29T22:14:40,783 ERROR [dmm.net.GameAPIClient] [DmmCash-POOL-1-THREAD-64] api-gameplayer.dmm.com
+java.net.UnknownHostException: api-gameplayer.dmm.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.net.GameAPIClient.post(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.api.ExecNormalAPI.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.api.ExecNormalAPI.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.LibraryTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.LibraryTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:14:40,852 ERROR [controller.task.LibraryTask] [JavaFX Application Thread] null
+com.dmm.exception.DMMException
+	at com.dmm.controller.task.LibraryTask.call(Unknown Source) ~[DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.LibraryTask.call(Unknown Source) ~[DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) ~[jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:14:40,866 ERROR [model.library.LibraryTaskScheduler] [JavaFX Application Thread] null
+com.dmm.exception.DMMException
+	at com.dmm.controller.task.LibraryTask.call(Unknown Source) ~[DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.LibraryTask.call(Unknown Source) ~[DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) ~[jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:14:52,884 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-764885] [WebSocket error occured]
+2021-05-29T22:14:52,885 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-764885] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:14:52,886 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:15:40,890 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-766038] [WebSocket error occured]
+2021-05-29T22:15:40,891 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-766038] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:15:40,891 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:16:31,892 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-766599] [WebSocket error occured]
+2021-05-29T22:16:31,893 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-766599] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:16:31,893 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:17:25,895 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-767897] [WebSocket error occured]
+2021-05-29T22:17:25,897 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-767897] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:17:25,897 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:18:22,901 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-768614] [WebSocket error occured]
+2021-05-29T22:18:22,902 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-768614] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:18:22,903 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:19:22,906 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-770040] [WebSocket error occured]
+2021-05-29T22:19:22,906 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-770040] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:19:22,907 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:20:25,910 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-771135] [WebSocket error occured]
+2021-05-29T22:20:25,912 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-771135] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:20:25,913 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:21:31,914 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-772473] [WebSocket error occured]
+2021-05-29T22:21:31,914 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-772473] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:21:31,915 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:22:14,647 ERROR [dmm.googleanalytics.GoogleAnalyticsHttpClient] [DmmCashDaemon-POOL-1-THREAD-252] ssl.google-analytics.com
+java.net.UnknownHostException: ssl.google-analytics.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.googleanalytics.GoogleAnalyticsHttpClient.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:22:40,915 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-773657] [WebSocket error occured]
+2021-05-29T22:22:40,916 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-773657] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:22:40,916 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:23:52,918 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-775195] [WebSocket error occured]
+2021-05-29T22:23:52,919 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-775195] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:23:52,919 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:25:07,921 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-776327] [WebSocket error occured]
+2021-05-29T22:25:07,921 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-776327] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:25:07,921 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:26:07,990 ERROR [dmm.googleanalytics.GoogleAnalyticsHttpClient] [DmmCashDaemon-POOL-1-THREAD-253] ssl.google-analytics.com
+java.net.UnknownHostException: ssl.google-analytics.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.googleanalytics.GoogleAnalyticsHttpClient.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:26:25,923 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-778203] [WebSocket error occured]
+2021-05-29T22:26:25,923 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-778203] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:26:25,923 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:27:46,924 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-779482] [WebSocket error occured]
+2021-05-29T22:27:46,925 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-779482] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:27:46,925 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:29:10,928 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-781221] [WebSocket error occured]
+2021-05-29T22:29:10,930 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-781221] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:29:10,931 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:29:27,248 ERROR [dmm.googleanalytics.GoogleAnalyticsHttpClient] [DmmCashDaemon-POOL-1-THREAD-255] ssl.google-analytics.com
+java.net.UnknownHostException: ssl.google-analytics.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.googleanalytics.GoogleAnalyticsHttpClient.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.googleanalytics.GoogleAnalyticsTask.call(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at javafx.concurrent.Task$TaskCallable.call(Unknown Source) [jetrt/:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:?]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:29:27,359 INFO  [system.util.SystemUtil] [JavaFX Application Thread] shutdown dmmgameplayer.
+2021-05-29T22:29:34,357 INFO  [com.dmm.Main] [main] start dmmgameplayer process.
+2021-05-29T22:29:34,359 INFO  [com.dmm.DMMApplication] [main] arg::dmmgameplayer://umamusume/cl/general/umamusume
+2021-05-29T22:29:34,590 INFO  [system.selfupdate.DMMGamePlayerBoot] [main] Deleting Temporary Files.
+2021-05-29T22:29:35,252 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [APPLICATION VERSION] 2.5.8
+2021-05-29T22:29:35,252 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [RUNTIME VERSION] 1.8.0_121-_2017_02_16_14_59-b00
+2021-05-29T22:29:35,252 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [OSNAME] Windows 10
+2021-05-29T22:29:35,535 INFO  [system.selfupdate.DMMGamePlayerBoot] [DmmCash-POOL-1-THREAD-1] Deleting AppUpdate Temporary Files.
+2021-05-29T22:29:35,546 INFO  [api.normal.ExecPlatformApplicationAPI] [DmmCash-POOL-1-THREAD-1] start api name:[platform-application-api]
+2021-05-29T22:29:35,546 INFO  [api.normal.ExecPlatformApplicationAPI] [DmmCash-POOL-1-THREAD-1] Request Platform files :https://api-gameplayer.dmm.com/gameplayer/platformapp/dmmgameplayer?os_type=win&arch=x64
+2021-05-29T22:29:36,617 ERROR [dmm.net.GameAPIClient] [DmmCash-POOL-1-THREAD-1] [https://api-gameplayer.dmm.com/gameplayer/platformapp/dmmgameplayer?os_type=win&arch=x64]api-gameplayer.dmm.com
+2021-05-29T22:29:36,675 INFO  [system.util.SystemUtil] [DmmCashDaemon-POOL-1-THREAD-2] boot check.
+2021-05-29T22:29:36,893 INFO  [dmm.system.PlatformService] [DmmCashDaemon-POOL-1-THREAD-2] DMMGamePlayer is Installed at C:\Program Files (x86)\DMMGamePlayer
+2021-05-29T22:29:36,893 INFO  [dmm.system.PlatformService] [DmmCashDaemon-POOL-1-THREAD-2] start server task.
+2021-05-29T22:29:36,898 INFO  [dmm.system.PlatformService] [DmmCashDaemon-POOL-1-THREAD-2] Configure gRPC parameters.
+2021-05-29T22:29:36,899 INFO  [system.dgpservice.DgpServiceCheck] [DmmCashDaemon-POOL-1-THREAD-2] boot dgpservice.
+2021-05-29T22:29:36,907 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-23] [WebSocket error occured]
+2021-05-29T22:29:36,908 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-23] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:29:36,946 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:29:37,053 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] start dmmgameplayer.
+2021-05-29T22:29:37,495 WARN  [task.api.ExecNormalAPI] [JavaFX Application Thread] ------ API on JavaFX thread[gamePlayerStart] ------
+2021-05-29T22:29:37,496 INFO  [task.api.ExecNormalAPI] [JavaFX Application Thread] start api name:[gamePlayerStart]
+2021-05-29T22:29:38,130 ERROR [dmm.net.GameAPIClient] [JavaFX Application Thread] api-gameplayer.dmm.com
+java.net.UnknownHostException: api-gameplayer.dmm.com
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.<unknown>(Unknown Source) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.<unknown>(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.MainClientExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RetryExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.execchain.RedirectExec.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(Unknown Source) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.dmm.net.GameAPIClient.post(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.api.ExecNormalAPI.executeApi(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.task.api.ExecNormalAPI.execAPI(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.controller.logic.GamePlayerStartLogic.startPlayer(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.DMMApplication.<unknown>(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.DMMApplication.lambda$null$0(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.dmm.DMMApplication$$Lambda$202.run(Unknown Source) [DMMGamePlayer-1.0.0.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$5(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl$$Lambda$52.run(Unknown Source) [jetrt/:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$6(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl$$Lambda$51.run(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$3(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication$$Lambda$40.run(Unknown Source) [jetrt/:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:29:38,136 INFO  [task.api.ExecNormalAPI] [JavaFX Application Thread] api handling start
+2021-05-29T22:29:38,137 ERROR [view.util.GamePlayerDialogBuilder] [JavaFX Application Thread] 9901:ネットワークが接続されていません:現在、DMM GAME PLAYERをご利用頂けません。
+しばらく時間をおいてから再起動をお試しください。
+
+メンテナンス・障害情報は下記からご確認ください。
+2021-05-29T22:29:38,175 ERROR [task.api.ExecNormalAPI] [JavaFX Application Thread] error api apiName:[gamePlayerStart]
+2021-05-29T22:29:39,947 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-25] [WebSocket error occured]
+2021-05-29T22:29:39,948 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-25] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:29:39,948 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:29:45,948 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-26] [WebSocket error occured]
+2021-05-29T22:29:45,948 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-26] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:29:45,949 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:29:54,950 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-27] [WebSocket error occured]
+2021-05-29T22:29:54,951 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-27] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:29:54,951 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:30:06,951 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-28] [WebSocket error occured]
+2021-05-29T22:30:06,952 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-28] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:30:06,952 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:30:21,953 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-29] [WebSocket error occured]
+2021-05-29T22:30:21,954 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-29] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:30:21,954 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:30:39,954 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-30] [WebSocket error occured]
+2021-05-29T22:30:39,955 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-30] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:30:39,955 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:31:00,956 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-31] [WebSocket error occured]
+2021-05-29T22:31:00,956 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-31] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:31:00,956 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:31:24,957 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-33] [WebSocket error occured]
+2021-05-29T22:31:24,957 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-33] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:31:24,958 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:31:51,960 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-34] [WebSocket error occured]
+2021-05-29T22:31:51,960 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-34] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:31:51,961 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:32:21,962 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-35] [WebSocket error occured]
+2021-05-29T22:32:21,962 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-35] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:32:21,962 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:32:54,964 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-36] [WebSocket error occured]
+2021-05-29T22:32:54,965 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-36] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:32:54,965 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:33:30,967 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-37] [WebSocket error occured]
+2021-05-29T22:33:30,967 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-37] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:33:30,968 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:34:09,970 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-38] [WebSocket error occured]
+2021-05-29T22:34:09,970 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-38] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:34:09,971 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:34:51,971 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-40] [WebSocket error occured]
+2021-05-29T22:34:51,972 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-40] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:34:51,972 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:35:36,974 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-41] [WebSocket error occured]
+2021-05-29T22:35:36,974 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-41] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:35:36,974 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:36:24,976 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-42] [WebSocket error occured]
+2021-05-29T22:36:24,977 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-42] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:36:24,977 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:37:15,994 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-44] [WebSocket error occured]
+2021-05-29T22:37:15,995 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-44] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:37:15,995 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:38:09,997 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-45] [WebSocket error occured]
+2021-05-29T22:38:09,997 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-45] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:38:09,998 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:39:06,999 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-46] [WebSocket error occured]
+2021-05-29T22:39:06,999 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-46] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:39:07,000 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:40:07,001 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-48] [WebSocket error occured]
+2021-05-29T22:40:07,001 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-48] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:40:07,002 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:41:10,003 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-49] [WebSocket error occured]
+2021-05-29T22:41:10,004 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-49] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:41:10,004 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:42:16,004 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-51] [WebSocket error occured]
+2021-05-29T22:42:16,005 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-51] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:42:16,005 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:43:25,007 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-52] [WebSocket error occured]
+2021-05-29T22:43:25,007 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-52] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:43:25,008 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:44:37,009 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-54] [WebSocket error occured]
+2021-05-29T22:44:37,009 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-54] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:44:37,009 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:45:52,013 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-56] [WebSocket error occured]
+2021-05-29T22:45:52,015 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-56] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:45:52,016 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:53:15,796 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-57] [WebSocket error occured]
+2021-05-29T22:53:15,796 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-57] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:53:15,796 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:54:36,800 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-58] [WebSocket error occured]
+2021-05-29T22:54:36,802 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-58] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:54:36,803 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:56:00,805 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-59] [WebSocket error occured]
+2021-05-29T22:56:00,806 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-59] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:56:00,807 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:57:27,812 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-61] [WebSocket error occured]
+2021-05-29T22:57:27,814 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-61] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:57:27,814 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T22:58:57,817 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-63] [WebSocket error occured]
+2021-05-29T22:58:57,819 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-63] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T22:58:57,821 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:00:30,822 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-64] [WebSocket error occured]
+2021-05-29T23:00:30,822 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-64] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:00:30,822 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:02:06,829 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-65] [WebSocket error occured]
+2021-05-29T23:02:06,829 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-65] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:02:06,830 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:03:45,834 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-66] [WebSocket error occured]
+2021-05-29T23:03:45,835 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-66] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:03:45,836 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:05:27,839 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-68] [WebSocket error occured]
+2021-05-29T23:05:27,840 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-68] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:05:27,841 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:07:12,844 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-70] [WebSocket error occured]
+2021-05-29T23:07:12,846 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-70] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:07:12,847 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:09:00,850 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-71] [WebSocket error occured]
+2021-05-29T23:09:00,851 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-71] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:09:00,852 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:10:51,855 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-73] [WebSocket error occured]
+2021-05-29T23:10:51,857 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-73] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:10:51,858 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:12:45,862 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-74] [WebSocket error occured]
+2021-05-29T23:12:45,865 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-74] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:12:45,866 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:14:42,869 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-76] [WebSocket error occured]
+2021-05-29T23:14:42,871 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-76] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:14:42,872 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:16:42,878 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-77] [WebSocket error occured]
+2021-05-29T23:16:42,879 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-77] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:16:42,880 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:18:45,909 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-78] [WebSocket error occured]
+2021-05-29T23:18:45,909 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-78] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:18:45,909 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:20:51,912 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-80] [WebSocket error occured]
+2021-05-29T23:20:51,914 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-80] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:20:51,915 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:23:00,919 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-82] [WebSocket error occured]
+2021-05-29T23:23:00,921 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-82] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-29T23:23:00,922 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-29T23:58:26,127 INFO  [com.dmm.Main] [main] start dmmgameplayer process.
+2021-05-29T23:58:26,131 INFO  [com.dmm.DMMApplication] [main] arg::dmmgameplayer://umamusume/cl/general/umamusume
+2021-05-29T23:58:27,671 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [APPLICATION VERSION] 2.5.8
+2021-05-29T23:58:27,671 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [RUNTIME VERSION] 1.8.0_121-_2017_02_16_14_59-b00
+2021-05-29T23:58:27,672 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [OSNAME] Windows 10
+2021-05-29T23:58:30,129 INFO  [system.util.SystemUtil] [DmmCashDaemon-POOL-1-THREAD-2] boot check.
+2021-05-29T23:58:30,749 ERROR [controller.task.ServerSocketTask] [DmmCashDaemon-POOL-1-THREAD-20] Server sokcet valiedation error occured.(7029)
+2021-05-29T23:58:30,898 INFO  [system.server.DMPServerRequestService] [DmmCashDaemon-POOL-1-THREAD-2] SocketServer result[0]
+2021-05-30T00:00:30,913 INFO  [com.dmm.Main] [main] start dmmgameplayer process.
+2021-05-30T00:00:30,948 INFO  [com.dmm.DMMApplication] [main] arg::dmmgameplayer://umamusume/cl/general/umamusume
+2021-05-30T00:00:31,935 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [APPLICATION VERSION] 2.5.8
+2021-05-30T00:00:31,935 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [RUNTIME VERSION] 1.8.0_121-_2017_02_16_14_59-b00
+2021-05-30T00:00:31,936 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [OSNAME] Windows 10
+2021-05-30T00:00:34,764 INFO  [system.util.SystemUtil] [DmmCashDaemon-POOL-1-THREAD-2] boot check.

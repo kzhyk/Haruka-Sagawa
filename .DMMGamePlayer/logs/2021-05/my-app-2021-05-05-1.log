@@ -1,0 +1,559 @@
+2021-05-05T00:01:27,419 INFO  [net.websocket.WebSocketController] [DmmCashDaemon-POOL-1-THREAD-5] Before Byte Convert : {"jsontype":"login","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJETU1HQU1FUExBWUVSIiwidXNlcl9pZCI6IlM5ZHJDS29PRFlCaFZwSXIiLCJpYXQiOjE2MTk4Nzk2MDMsImV4cCI6MTYyMjQ3MTYwM30.zUrzZ14fLxfzzRYe0NQmdbLP-lvvHeGo9LmlAVo9RgA","retry":39}
+2021-05-05T00:10:40,413 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:10:40,487 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:10:40,487 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:10:40,489 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:10:40,489 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-604] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:10:40,489 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-606] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:10:40,492 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-607] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:10:40,490 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:10:40,489 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-605] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:10:40,495 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:10:40,496 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-608] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:10:40,501 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-609] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:10:40,502 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-605] start api name:[mygame]
+2021-05-05T00:10:40,502 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-606] start api name:[mygame]
+2021-05-05T00:10:40,502 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-604] start api name:[mygame]
+2021-05-05T00:10:40,502 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-607] start api name:[mygame]
+2021-05-05T00:10:40,502 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-608] start api name:[mygame]
+2021-05-05T00:10:40,504 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-609] start api name:[mygame]
+2021-05-05T00:10:42,122 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-608] libraryAPI success
+2021-05-05T00:10:42,152 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-604] libraryAPI success
+2021-05-05T00:10:42,153 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-609] libraryAPI success
+2021-05-05T00:10:42,153 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-605] libraryAPI success
+2021-05-05T00:10:42,162 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-607] libraryAPI success
+2021-05-05T00:10:42,179 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-606] libraryAPI success
+2021-05-05T00:25:40,419 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:25:40,500 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:25:40,500 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:25:40,501 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:25:40,501 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:25:40,501 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-610] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:25:40,501 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-611] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:25:40,501 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-612] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:25:40,505 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-614] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:25:40,504 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:25:40,504 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-613] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:25:40,511 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-615] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:25:40,616 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-611] start api name:[mygame]
+2021-05-05T00:25:40,616 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-614] start api name:[mygame]
+2021-05-05T00:25:40,616 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-612] start api name:[mygame]
+2021-05-05T00:25:40,616 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-610] start api name:[mygame]
+2021-05-05T00:25:40,616 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-615] start api name:[mygame]
+2021-05-05T00:25:40,616 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-613] start api name:[mygame]
+2021-05-05T00:25:41,738 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-613] libraryAPI success
+2021-05-05T00:25:41,753 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-612] libraryAPI success
+2021-05-05T00:25:41,745 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-614] libraryAPI success
+2021-05-05T00:25:41,741 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-610] libraryAPI success
+2021-05-05T00:25:41,745 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-615] libraryAPI success
+2021-05-05T00:25:42,344 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-611] libraryAPI success
+2021-05-05T00:40:40,418 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:40:40,479 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:40:40,480 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:40:40,481 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:40:40,481 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:40:40,481 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-617] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:40:40,481 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-616] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:40:40,482 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-620] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:40:40,482 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:40:40,481 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-618] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:40:40,482 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-619] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:40:40,487 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-621] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:40:40,490 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-618] start api name:[mygame]
+2021-05-05T00:40:40,490 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-616] start api name:[mygame]
+2021-05-05T00:40:40,490 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-621] start api name:[mygame]
+2021-05-05T00:40:40,490 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-619] start api name:[mygame]
+2021-05-05T00:40:40,490 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-617] start api name:[mygame]
+2021-05-05T00:40:40,490 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-620] start api name:[mygame]
+2021-05-05T00:40:41,863 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-618] libraryAPI success
+2021-05-05T00:40:41,863 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-619] libraryAPI success
+2021-05-05T00:40:41,863 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-620] libraryAPI success
+2021-05-05T00:40:41,863 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-616] libraryAPI success
+2021-05-05T00:40:41,871 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-621] libraryAPI success
+2021-05-05T00:40:41,921 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-617] libraryAPI success
+2021-05-05T00:55:40,425 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:55:40,523 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:55:40,525 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:55:40,526 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:55:40,527 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:55:40,527 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-625] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:55:40,527 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-624] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:55:40,526 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-623] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:55:40,533 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T00:55:40,526 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-622] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:55:40,544 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-626] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:55:40,550 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-622] start api name:[mygame]
+2021-05-05T00:55:40,551 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-625] start api name:[mygame]
+2021-05-05T00:55:40,552 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-624] start api name:[mygame]
+2021-05-05T00:55:40,552 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-626] start api name:[mygame]
+2021-05-05T00:55:40,552 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-627] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T00:55:40,552 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-623] start api name:[mygame]
+2021-05-05T00:55:40,554 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-627] start api name:[mygame]
+2021-05-05T00:55:41,735 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-625] libraryAPI success
+2021-05-05T00:55:41,740 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-627] libraryAPI success
+2021-05-05T00:55:41,753 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-626] libraryAPI success
+2021-05-05T00:55:41,755 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-622] libraryAPI success
+2021-05-05T00:55:41,779 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-624] libraryAPI success
+2021-05-05T00:55:41,756 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-623] libraryAPI success
+2021-05-05T01:10:40,426 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T01:10:40,495 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T01:10:40,495 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T01:10:40,496 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T01:10:40,496 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T01:10:40,496 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-629] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T01:10:40,497 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-630] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T01:10:40,499 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-631] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T01:10:40,496 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-628] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T01:10:40,500 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T01:10:40,500 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-632] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T01:10:40,501 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-633] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T01:10:40,504 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-632] start api name:[mygame]
+2021-05-05T01:10:40,504 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-633] start api name:[mygame]
+2021-05-05T01:10:40,505 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-630] start api name:[mygame]
+2021-05-05T01:10:40,505 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-629] start api name:[mygame]
+2021-05-05T01:10:40,505 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-628] start api name:[mygame]
+2021-05-05T01:10:40,505 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-631] start api name:[mygame]
+2021-05-05T01:10:41,370 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-628] libraryAPI success
+2021-05-05T01:10:41,384 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-632] libraryAPI success
+2021-05-05T01:10:41,384 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-630] libraryAPI success
+2021-05-05T01:10:41,425 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-629] libraryAPI success
+2021-05-05T01:10:41,445 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-633] libraryAPI success
+2021-05-05T01:10:41,595 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-631] libraryAPI success
+2021-05-05T07:02:46,100 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-2238053] [WebSocket error occured]
+2021-05-05T07:02:46,158 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-2238053] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-05T07:02:46,182 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-05T07:03:34,329 ERROR [controller.view.StoreController] [JavaFX Application Thread] Unknown host
+java.lang.Throwable: Unknown host
+	at javafx.scene.web.WebEngine$LoadWorker.describeError(Unknown Source) ~[jetrt/:?]
+	at javafx.scene.web.WebEngine$LoadWorker.dispatchLoadEvent(Unknown Source) [jetrt/:?]
+	at javafx.scene.web.WebEngine$LoadWorker.<unknown>(Unknown Source) [jetrt/:?]
+	at javafx.scene.web.WebEngine$PageLoadListener.dispatchLoadEvent(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.WebPage.<unknown>(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.WebPage.fwkFireLoadEvent(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader.twkDidFail(Native Method) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader.<unknown>(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader.lambda$didFail$6(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader$$Lambda$406.run(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$5(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl$$Lambda$52.run(Unknown Source) [jetrt/:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$6(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl$$Lambda$51.run(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$3(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication$$Lambda$40.run(Unknown Source) [jetrt/:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-05T07:03:36,358 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-634] start api name:[appinfo]
+2021-05-05T07:03:37,744 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-634] start api name:[appDetail]
+2021-05-05T07:03:38,401 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-634] start api name:[appstart]
+2021-05-05T07:03:39,416 INFO  [impl.function.TaskSequenceHolder] [DmmCash-POOL-1-THREAD-635] Start Task Sequence taskId=17 target::cl_umamusume
+2021-05-05T07:03:44,555 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-635] start api name:[filelist]
+2021-05-05T07:03:48,014 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\GameAssembly.dll
+2021-05-05T07:03:49,055 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\UmamusumeUninstaller.exe
+2021-05-05T07:03:49,110 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\UnityCrashHandler64.exe
+2021-05-05T07:03:50,560 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\UnityPlayer.dll
+2021-05-05T07:03:50,610 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume.exe
+2021-05-05T07:03:50,680 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume.exe._
+2021-05-05T07:03:50,752 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\CySpringPlugin.dll
+2021-05-05T07:03:51,341 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\UnityFbxSdkNative.dll
+2021-05-05T07:03:51,875 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\cri_lips_unity.dll
+2021-05-05T07:03:51,992 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\cri_mana_vpx.dll
+2021-05-05T07:03:52,066 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\cri_ware_unity.dll
+2021-05-05T07:03:52,434 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\criafx_mcdsp.dll
+2021-05-05T07:03:52,447 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\lib_burst_generated.dll
+2021-05-05T07:03:52,551 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\libnative.dll
+2021-05-05T07:03:52,726 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Resources\unity default resources
+2021-05-05T07:03:52,747 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\Resources\unity_builtin_extra
+2021-05-05T07:03:56,518 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Movie\m\Title\title_movie_01.usm
+2021-05-05T07:03:56,522 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\b\snd_bgm_title.acb
+2021-05-05T07:03:56,870 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\b\snd_bgm_title.awb
+2021-05-05T07:03:57,008 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\s\snd_sfx_preinstall.acb
+2021-05-05T07:03:57,016 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\v\snd_voi_title.acb
+2021-05-05T07:03:57,472 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\v\snd_voi_title.awb
+2021-05-05T07:03:57,526 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\cri_auth
+2021-05-05T07:03:57,843 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\fase_random.cell
+2021-05-05T07:03:57,868 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\google-services-desktop.json
+2021-05-05T07:03:57,872 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\sound_proj.acf
+2021-05-05T07:03:58,028 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\app.info
+2021-05-05T07:03:58,054 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\boot.config
+2021-05-05T07:04:00,236 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\globalgamemanagers
+2021-05-05T07:04:00,388 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\globalgamemanagers.assets
+2021-05-05T07:04:02,167 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\Metadata\global-metadata.dat
+2021-05-05T07:04:02,232 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\Resources\mscorlib.dll-resources.dat
+2021-05-05T07:04:02,341 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser
+2021-05-05T07:04:04,313 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+2021-05-05T07:04:04,536 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\machine.config
+2021-05-05T07:04:04,751 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\settings.map
+2021-05-05T07:04:05,083 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\web.config
+2021-05-05T07:04:05,150 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser
+2021-05-05T07:04:06,079 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+2021-05-05T07:04:06,175 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\machine.config
+2021-05-05T07:04:06,223 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\settings.map
+2021-05-05T07:04:06,355 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\web.config
+2021-05-05T07:04:06,524 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser
+2021-05-05T07:04:07,529 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+2021-05-05T07:04:07,707 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\machine.config
+2021-05-05T07:04:07,766 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\settings.map
+2021-05-05T07:04:07,837 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\web.config
+2021-05-05T07:04:07,886 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\browscap.ini
+2021-05-05T07:04:07,958 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\config
+2021-05-05T07:04:08,169 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\mconfig\config.xml
+2021-05-05T07:04:08,255 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level0
+2021-05-05T07:04:08,258 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level1
+2021-05-05T07:04:08,283 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level10
+2021-05-05T07:04:08,285 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level11
+2021-05-05T07:04:08,287 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level12
+2021-05-05T07:04:08,312 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level13
+2021-05-05T07:04:08,475 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level13.resS
+2021-05-05T07:04:08,577 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level14
+2021-05-05T07:04:08,624 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level15
+2021-05-05T07:04:08,629 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level16
+2021-05-05T07:04:08,735 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level17
+2021-05-05T07:04:08,884 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level18
+2021-05-05T07:04:08,982 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level19
+2021-05-05T07:04:09,089 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level2
+2021-05-05T07:04:09,143 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level20
+2021-05-05T07:04:09,146 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level3
+2021-05-05T07:04:09,149 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level4
+2021-05-05T07:04:09,175 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level5
+2021-05-05T07:04:09,182 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level6
+2021-05-05T07:04:09,186 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level7
+2021-05-05T07:04:09,191 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level8
+2021-05-05T07:04:09,580 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\level9
+2021-05-05T07:04:17,480 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\resources.assets
+2021-05-05T07:04:18,598 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\resources.assets.resS
+2021-05-05T07:04:18,659 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets0.assets
+2021-05-05T07:04:18,884 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets0.assets.resS
+2021-05-05T07:04:18,919 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets1.assets
+2021-05-05T07:04:18,999 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets10.assets
+2021-05-05T07:04:19,002 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets11.assets
+2021-05-05T07:04:19,004 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets12.assets
+2021-05-05T07:04:19,056 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets13.assets
+2021-05-05T07:04:19,094 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets14.assets
+2021-05-05T07:04:19,131 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets15.assets
+2021-05-05T07:04:19,134 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets16.assets
+2021-05-05T07:04:19,162 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets17.assets
+2021-05-05T07:04:19,190 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets18.assets
+2021-05-05T07:04:19,244 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets19.assets
+2021-05-05T07:04:19,287 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets2.assets
+2021-05-05T07:04:19,327 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets20.assets
+2021-05-05T07:04:19,331 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets3.assets
+2021-05-05T07:04:19,336 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets4.assets
+2021-05-05T07:04:19,367 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets5.assets
+2021-05-05T07:04:19,370 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets6.assets
+2021-05-05T07:04:19,375 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets7.assets
+2021-05-05T07:04:19,380 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets8.assets
+2021-05-05T07:04:19,416 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-635] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets9.assets
+2021-05-05T07:04:19,443 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-635] start api name:[filelist]
+2021-05-05T07:04:20,156 INFO  [task.call.GetCloudFrontCookieTaskCall] [DmmCash-POOL-1-THREAD-635] Policy URL::https://cdn2-gameplayer.games.dmm.com/*
+2021-05-05T07:04:20,157 INFO  [task.api.ExecDgpaaApi] [DmmCash-POOL-1-THREAD-635] start api name:[getCookie]
+2021-05-05T07:04:20,660 INFO  [dmm.net.AWSAPIClient] [DmmCash-POOL-1-THREAD-635] {"policy":"eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4yLWdhbWVwbGF5ZXIuZ2FtZXMuZG1tLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjIwMjA5MDYwfX19XX0_","signature":"riFLCrYmfwMMjHl28p6vEfldf43fH5fBRN66Tdk5EOl6fsQtNGCfNggPXpYMb~N9uX5FtTAtMSX4mxflUFPZf2rKcy6t2yp9M1jcS5lTVwB3I13-y45rJuMDXCO1Q--eVaaNgs2AE91jyDKZoTqJpy3t~DP-GZNozfl5IWAn~57Q9z7tiC1rqmrOSzAhBgvot3AiXhi52XrQdy-bXu9XT-auNdOvoQTXA3PNOEp4mM~YVYPdgQCnO~9RAcz8XkTj0Z~uxdDUQf3NiDGbBL6cLHp5bRU-faRbMDEftAQ5onbui1YtjoqPS9TcfCJuNiYpv8lKYK7sTMRhHolYuwmwYA__","key":"APKAIWN3T3PLZ5YT5MOQ"}
+2021-05-05T07:04:20,683 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-635] start api name:[appinfo]
+2021-05-05T07:04:20,699 INFO  [mygame.cashparts.MyGameListRowController] [JavaFX Application Thread] MyGameList Created while downloading. Binding properties to view.
+2021-05-05T07:04:21,342 INFO  [task.api.ExecDgpserviceApi] [DmmCash-POOL-1-THREAD-638] start api name:[addToWatch]
+2021-05-05T07:04:21,343 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-635] start api name:[report:start]
+2021-05-05T07:04:21,528 INFO  [dmm.net.DgpserviceAPIClient] [DmmCash-POOL-1-THREAD-638] [dgpservice request]::{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJpc3MiOiJodHRwOlwvXC93d3cuZG1tLmNvbVwvIiwidXNlcl9pZCI6IlM5ZHJDS29PRFlCaFZwSXIiLCJhdWQiOiI5cDY5c2FqT0g5cGRzSGF0WUlER2ViZjgxQWdSIiwiZXhwIjoxNjE2NTc0NDg0LCJpYXQiOjE2MTY1NzA4NzQsIm5vbmNlIjpudWxsfQ.","product_id":"umamusume","type":"cl","processname":"C:\\Users\\user\\Umamusume\\umamusume.exe"}
+2021-05-05T07:04:26,556 INFO  [dmm.net.DgpserviceAPIClient] [DmmCash-POOL-1-THREAD-638] [dgpservice response]::{"result":"success","message":"succeeded to add to gamelist."}
+2021-05-05T07:04:26,558 INFO  [api.dgpservice.AddToWatchAPI] [JavaFX Application Thread] addToWatch result is success::succeeded to add to gamelist.
+2021-05-05T07:04:34,795 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-638] start api name:[appinfo]
+2021-05-05T07:04:34,813 ERROR [controller.view.StoreController] [JavaFX Application Thread] Unknown host
+java.lang.Throwable: Unknown host
+	at javafx.scene.web.WebEngine$LoadWorker.describeError(Unknown Source) ~[jetrt/:?]
+	at javafx.scene.web.WebEngine$LoadWorker.dispatchLoadEvent(Unknown Source) [jetrt/:?]
+	at javafx.scene.web.WebEngine$LoadWorker.<unknown>(Unknown Source) [jetrt/:?]
+	at javafx.scene.web.WebEngine$PageLoadListener.dispatchLoadEvent(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.WebPage.<unknown>(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.WebPage.fwkFireLoadEvent(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader.twkDidFail(Native Method) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader.<unknown>(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader.lambda$didFail$6(Unknown Source) [jetrt/:?]
+	at com.sun.webkit.network.URLLoader$$Lambda$406.run(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$5(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl$$Lambda$52.run(Unknown Source) [jetrt/:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$6(Unknown Source) [jetrt/:?]
+	at com.sun.javafx.application.PlatformImpl$$Lambda$51.run(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$3(Unknown Source) [jetrt/:?]
+	at com.sun.glass.ui.win.WinApplication$$Lambda$40.run(Unknown Source) [jetrt/:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-05T07:04:35,562 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-638] start api name:[appDetail]
+2021-05-05T07:04:36,144 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-638] start api name:[appstart]
+2021-05-05T07:04:36,940 INFO  [impl.function.TaskSequenceHolder] [DmmCash-POOL-1-THREAD-634] Start Task Sequence taskId=18 target::cl_umamusume
+2021-05-05T07:04:38,103 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-634] start api name:[filelist]
+2021-05-05T07:04:43,887 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\GameAssembly.dll
+2021-05-05T07:04:43,911 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\UmamusumeUninstaller.exe
+2021-05-05T07:04:44,026 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\UnityCrashHandler64.exe
+2021-05-05T07:04:47,951 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\UnityPlayer.dll
+2021-05-05T07:04:48,003 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume.exe
+2021-05-05T07:04:48,092 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume.exe._
+2021-05-05T07:04:48,144 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\CySpringPlugin.dll
+2021-05-05T07:04:48,938 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\UnityFbxSdkNative.dll
+2021-05-05T07:04:48,965 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\cri_lips_unity.dll
+2021-05-05T07:04:49,119 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\cri_mana_vpx.dll
+2021-05-05T07:04:49,263 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\cri_ware_unity.dll
+2021-05-05T07:04:49,305 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\criafx_mcdsp.dll
+2021-05-05T07:04:49,333 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\lib_burst_generated.dll
+2021-05-05T07:04:49,502 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Plugins\x86_64\libnative.dll
+2021-05-05T07:04:49,784 INFO  [net.websocket.WebSocketController] [DmmCashDaemon-POOL-1-THREAD-5] Before Byte Convert : {"jsontype":"login","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJETU1HQU1FUExBWUVSIiwidXNlcl9pZCI6IlM5ZHJDS29PRFlCaFZwSXIiLCJpYXQiOjE2MTk4Nzk2MDMsImV4cCI6MTYyMjQ3MTYwM30.zUrzZ14fLxfzzRYe0NQmdbLP-lvvHeGo9LmlAVo9RgA","retry":41}
+2021-05-05T07:04:49,831 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Resources\unity default resources
+2021-05-05T07:04:49,890 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\Resources\unity_builtin_extra
+2021-05-05T07:04:52,596 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Movie\m\Title\title_movie_01.usm
+2021-05-05T07:04:52,628 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\b\snd_bgm_title.acb
+2021-05-05T07:04:52,799 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\b\snd_bgm_title.awb
+2021-05-05T07:04:52,829 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\s\snd_sfx_preinstall.acb
+2021-05-05T07:04:52,850 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\v\snd_voi_title.acb
+2021-05-05T07:04:52,934 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\PreinResource\Sound\v\snd_voi_title.awb
+2021-05-05T07:04:52,948 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\cri_auth
+2021-05-05T07:04:52,949 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\fase_random.cell
+2021-05-05T07:04:52,951 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\google-services-desktop.json
+2021-05-05T07:04:52,953 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\StreamingAssets\sound_proj.acf
+2021-05-05T07:04:52,995 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\app.info
+2021-05-05T07:04:52,997 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\boot.config
+2021-05-05T07:04:56,432 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\globalgamemanagers
+2021-05-05T07:04:56,561 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\globalgamemanagers.assets
+2021-05-05T07:04:58,263 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\Metadata\global-metadata.dat
+2021-05-05T07:04:58,285 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\Resources\mscorlib.dll-resources.dat
+2021-05-05T07:04:58,286 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser
+2021-05-05T07:04:58,329 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+2021-05-05T07:04:58,359 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\machine.config
+2021-05-05T07:04:58,361 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\settings.map
+2021-05-05T07:04:58,364 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\2.0\web.config
+2021-05-05T07:04:58,366 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser
+2021-05-05T07:04:58,370 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+2021-05-05T07:04:58,376 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\machine.config
+2021-05-05T07:04:58,378 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\settings.map
+2021-05-05T07:04:58,380 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.0\web.config
+2021-05-05T07:04:58,382 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser
+2021-05-05T07:04:58,386 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+2021-05-05T07:04:58,391 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\machine.config
+2021-05-05T07:04:58,395 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\settings.map
+2021-05-05T07:04:58,399 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\4.5\web.config
+2021-05-05T07:04:58,452 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\browscap.ini
+2021-05-05T07:04:58,480 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\config
+2021-05-05T07:04:58,485 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\il2cpp_data\etc\mono\mconfig\config.xml
+2021-05-05T07:04:58,488 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level0
+2021-05-05T07:04:58,494 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level1
+2021-05-05T07:04:58,497 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level10
+2021-05-05T07:04:58,499 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level11
+2021-05-05T07:04:58,501 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level12
+2021-05-05T07:04:58,506 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level13
+2021-05-05T07:04:58,520 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level13.resS
+2021-05-05T07:04:58,524 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level14
+2021-05-05T07:04:58,528 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level15
+2021-05-05T07:04:58,531 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level16
+2021-05-05T07:04:58,685 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level17
+2021-05-05T07:04:58,687 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level18
+2021-05-05T07:04:58,690 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level19
+2021-05-05T07:04:58,695 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level2
+2021-05-05T07:04:58,706 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level20
+2021-05-05T07:04:58,715 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level3
+2021-05-05T07:04:58,761 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level4
+2021-05-05T07:04:58,764 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level5
+2021-05-05T07:04:58,765 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level6
+2021-05-05T07:04:58,767 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level7
+2021-05-05T07:04:58,769 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level8
+2021-05-05T07:04:58,771 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\level9
+2021-05-05T07:05:11,085 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\resources.assets
+2021-05-05T07:05:12,700 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\resources.assets.resS
+2021-05-05T07:05:12,705 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets0.assets
+2021-05-05T07:05:12,850 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets0.assets.resS
+2021-05-05T07:05:12,852 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets1.assets
+2021-05-05T07:05:12,857 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets10.assets
+2021-05-05T07:05:12,860 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets11.assets
+2021-05-05T07:05:12,863 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets12.assets
+2021-05-05T07:05:12,865 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets13.assets
+2021-05-05T07:05:12,867 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets14.assets
+2021-05-05T07:05:12,869 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets15.assets
+2021-05-05T07:05:12,871 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets16.assets
+2021-05-05T07:05:12,873 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets17.assets
+2021-05-05T07:05:12,875 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets18.assets
+2021-05-05T07:05:12,877 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets19.assets
+2021-05-05T07:05:12,879 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets2.assets
+2021-05-05T07:05:12,882 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets20.assets
+2021-05-05T07:05:12,884 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets3.assets
+2021-05-05T07:05:12,887 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets4.assets
+2021-05-05T07:05:12,889 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets5.assets
+2021-05-05T07:05:12,891 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets6.assets
+2021-05-05T07:05:12,893 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets7.assets
+2021-05-05T07:05:12,895 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets8.assets
+2021-05-05T07:05:12,900 INFO  [system.util.FileUtil] [DmmCash-POOL-1-THREAD-634] Same File::C:\Users\user\Umamusume\umamusume_Data\sharedassets9.assets
+2021-05-05T07:05:12,948 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-634] start api name:[filelist]
+2021-05-05T07:05:13,641 INFO  [task.call.GetCloudFrontCookieTaskCall] [DmmCash-POOL-1-THREAD-634] Policy URL::https://cdn2-gameplayer.games.dmm.com/*
+2021-05-05T07:05:13,642 INFO  [task.api.ExecDgpaaApi] [DmmCash-POOL-1-THREAD-634] start api name:[getCookie]
+2021-05-05T07:05:14,004 INFO  [dmm.net.AWSAPIClient] [DmmCash-POOL-1-THREAD-634] {"policy":"eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4yLWdhbWVwbGF5ZXIuZ2FtZXMuZG1tLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjIwMjA5MTEzfX19XX0_","signature":"LbeOklWBSSknN-Vic~DeYqe5ReDKuUYJGRvUEfBt56OwHDZKsOKkVXOZyfBKva0CLy9idxB97SrkT8uws3YO-Jly1k4dzsbO6bVkeqQ-CGliLo2WJrmHPE3xY5ruPqiAxv5Z92zwqf6Q-EzCa9jZoeZCyA-kswPYiuICMENRe~Xsbj-7fIJdShFR9~qNR~6qY0hwGfNtIdQJyl1xvNGkd01mZj17ExwKecNC-biK2FOKkE7NzdyMP8HmwxsbiWfdtGVRlkxbhw7TY0Ne3daTK4I3sAyzQTN4XTIAEpDn~sVsrasvB94I68hq-GoSDN5itxW7AXg3-3DOwD8gr0~EDQ__","key":"APKAIWN3T3PLZ5YT5MOQ"}
+2021-05-05T07:05:14,010 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-634] start api name:[appinfo]
+2021-05-05T07:05:14,047 INFO  [mygame.cashparts.MyGameListRowController] [JavaFX Application Thread] MyGameList Created while downloading. Binding properties to view.
+2021-05-05T07:05:14,634 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-634] start api name:[report:start]
+2021-05-05T07:05:14,646 INFO  [task.api.ExecDgpserviceApi] [DmmCash-POOL-1-THREAD-637] start api name:[addToWatch]
+2021-05-05T07:05:14,683 INFO  [dmm.net.DgpserviceAPIClient] [DmmCash-POOL-1-THREAD-637] [dgpservice request]::{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJpc3MiOiJodHRwOlwvXC93d3cuZG1tLmNvbVwvIiwidXNlcl9pZCI6IlM5ZHJDS29PRFlCaFZwSXIiLCJhdWQiOiI5cDY5c2FqT0g5cGRzSGF0WUlER2ViZjgxQWdSIiwiZXhwIjoxNjE2NTc0NDg0LCJpYXQiOjE2MTY1NzA4NzQsIm5vbmNlIjpudWxsfQ.","product_id":"umamusume","type":"cl","processname":"C:\\Users\\user\\Umamusume\\umamusume.exe"}
+2021-05-05T07:05:15,061 INFO  [dmm.net.DgpserviceAPIClient] [DmmCash-POOL-1-THREAD-637] [dgpservice response]::{"result":"success","message":"succeeded to add to gamelist."}
+2021-05-05T07:05:15,062 INFO  [api.dgpservice.AddToWatchAPI] [JavaFX Application Thread] addToWatch result is success::succeeded to add to gamelist.
+2021-05-05T07:11:14,351 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:11:14,443 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:11:14,445 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:11:14,446 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:11:14,447 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:11:14,447 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:11:14,487 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-642] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:11:14,490 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-643] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:11:14,485 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-640] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:11:14,541 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-640] start api name:[mygame]
+2021-05-05T07:11:14,500 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-642] start api name:[mygame]
+2021-05-05T07:11:14,487 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-641] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:11:14,542 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-641] start api name:[mygame]
+2021-05-05T07:11:14,490 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-639] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:11:14,542 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-639] start api name:[mygame]
+2021-05-05T07:11:14,542 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-644] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:11:14,543 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-644] start api name:[mygame]
+2021-05-05T07:11:14,544 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-643] start api name:[mygame]
+2021-05-05T07:11:16,230 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-641] libraryAPI success
+2021-05-05T07:11:16,232 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-643] libraryAPI success
+2021-05-05T07:11:16,239 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-639] libraryAPI success
+2021-05-05T07:11:16,241 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-644] libraryAPI success
+2021-05-05T07:11:16,250 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-642] libraryAPI success
+2021-05-05T07:11:16,242 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-640] libraryAPI success
+2021-05-05T07:26:14,356 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:26:14,422 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:26:14,423 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:26:14,424 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:26:14,425 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:26:14,425 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:26:14,428 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-646] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:26:14,430 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-649] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:26:14,430 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-648] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:26:14,430 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-650] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:26:14,429 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-645] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:26:14,428 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-647] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:26:14,438 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-649] start api name:[mygame]
+2021-05-05T07:26:14,442 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-647] start api name:[mygame]
+2021-05-05T07:26:14,447 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-646] start api name:[mygame]
+2021-05-05T07:26:14,448 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-650] start api name:[mygame]
+2021-05-05T07:26:14,448 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-645] start api name:[mygame]
+2021-05-05T07:26:14,447 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-648] start api name:[mygame]
+2021-05-05T07:26:15,450 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-645] libraryAPI success
+2021-05-05T07:26:15,450 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-647] libraryAPI success
+2021-05-05T07:26:15,452 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-648] libraryAPI success
+2021-05-05T07:26:15,452 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-650] libraryAPI success
+2021-05-05T07:26:15,452 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-649] libraryAPI success
+2021-05-05T07:26:15,480 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-646] libraryAPI success
+2021-05-05T07:41:14,400 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:41:14,492 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:41:14,493 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:41:14,494 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:41:14,497 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:41:14,500 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:41:14,535 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-654] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:41:14,568 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-652] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:41:14,632 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-651] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:41:14,571 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-656] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:41:14,632 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-655] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:41:14,688 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-655] start api name:[mygame]
+2021-05-05T07:41:14,686 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-651] start api name:[mygame]
+2021-05-05T07:41:14,654 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-654] start api name:[mygame]
+2021-05-05T07:41:14,654 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-656] start api name:[mygame]
+2021-05-05T07:41:14,686 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-653] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:41:14,699 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-653] start api name:[mygame]
+2021-05-05T07:41:14,699 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-652] start api name:[mygame]
+2021-05-05T07:41:17,214 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-654] libraryAPI success
+2021-05-05T07:41:17,219 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-656] libraryAPI success
+2021-05-05T07:41:17,524 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-653] libraryAPI success
+2021-05-05T07:41:17,540 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-651] libraryAPI success
+2021-05-05T07:41:17,569 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-655] libraryAPI success
+2021-05-05T07:41:17,589 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-652] libraryAPI success
+2021-05-05T07:56:14,444 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:56:14,559 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:56:14,560 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:56:14,561 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:56:14,562 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:56:14,563 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T07:56:14,601 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-658] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:56:14,620 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-662] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:56:14,601 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-659] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:56:14,619 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-661] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:56:14,620 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-660] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:56:14,600 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-657] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T07:56:14,663 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-662] start api name:[mygame]
+2021-05-05T07:56:14,668 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-661] start api name:[mygame]
+2021-05-05T07:56:14,668 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-660] start api name:[mygame]
+2021-05-05T07:56:14,670 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-657] start api name:[mygame]
+2021-05-05T07:56:14,671 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-658] start api name:[mygame]
+2021-05-05T07:56:14,681 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-659] start api name:[mygame]
+2021-05-05T07:56:16,602 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-659] libraryAPI success
+2021-05-05T07:56:16,602 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-657] libraryAPI success
+2021-05-05T07:56:16,611 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-661] libraryAPI success
+2021-05-05T07:56:16,612 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-660] libraryAPI success
+2021-05-05T07:56:16,611 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-658] libraryAPI success
+2021-05-05T07:56:16,651 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-662] libraryAPI success
+2021-05-05T22:49:39,436 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-2482008] [WebSocket error occured]
+2021-05-05T22:49:39,439 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-2482008] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2021-05-05T22:49:39,559 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-5] Failed to conenct to websocket server. Will Retry.
+2021-05-05T22:51:49,119 INFO  [net.websocket.WebSocketController] [DmmCashDaemon-POOL-1-THREAD-5] Before Byte Convert : {"jsontype":"login","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJETU1HQU1FUExBWUVSIiwidXNlcl9pZCI6IlM5ZHJDS29PRFlCaFZwSXIiLCJpYXQiOjE2MTk4Nzk2MDMsImV4cCI6MTYyMjQ3MTYwM30.zUrzZ14fLxfzzRYe0NQmdbLP-lvvHeGo9LmlAVo9RgA","retry":43}
+2021-05-05T22:53:25,298 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T22:53:25,300 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T22:53:25,301 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T22:53:25,301 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T22:53:25,302 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T22:53:25,303 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T22:53:25,325 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-667] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T22:53:25,332 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-667] start api name:[mygame]
+2021-05-05T22:53:25,342 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-663] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T22:53:25,343 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-665] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T22:53:25,407 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-665] start api name:[mygame]
+2021-05-05T22:53:25,343 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-663] start api name:[mygame]
+2021-05-05T22:53:25,325 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-664] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T22:53:25,452 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-664] start api name:[mygame]
+2021-05-05T22:53:25,362 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-666] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T22:53:25,455 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-666] start api name:[mygame]
+2021-05-05T22:53:25,343 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-668] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T22:53:25,456 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-668] start api name:[mygame]
+2021-05-05T22:53:26,595 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-667] libraryAPI success
+2021-05-05T22:53:26,597 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-668] libraryAPI success
+2021-05-05T22:53:26,609 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-663] libraryAPI success
+2021-05-05T22:53:26,644 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-664] libraryAPI success
+2021-05-05T22:53:26,644 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-665] libraryAPI success
+2021-05-05T22:53:26,647 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-666] libraryAPI success
+2021-05-05T23:08:25,317 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T23:08:25,384 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T23:08:25,385 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T23:08:25,385 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T23:08:25,386 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T23:08:25,386 INFO  [model.library.LibraryTaskScheduler] [JavaFX Application Thread] Run background LibraryTask.
+2021-05-05T23:08:25,396 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-673] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T23:08:25,404 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-672] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T23:08:25,412 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-673] start api name:[mygame]
+2021-05-05T23:08:25,404 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-671] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T23:08:25,404 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-669] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T23:08:25,404 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-670] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T23:08:25,404 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-674] LibraryTask started. This task correct mygame list data from server.
+2021-05-05T23:08:25,434 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-671] start api name:[mygame]
+2021-05-05T23:08:25,443 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-674] start api name:[mygame]
+2021-05-05T23:08:25,441 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-672] start api name:[mygame]
+2021-05-05T23:08:25,434 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-669] start api name:[mygame]
+2021-05-05T23:08:25,441 INFO  [task.api.ExecNormalAPI] [DmmCash-POOL-1-THREAD-670] start api name:[mygame]
+2021-05-05T23:08:26,582 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-673] libraryAPI success
+2021-05-05T23:08:26,582 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-671] libraryAPI success
+2021-05-05T23:08:26,598 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-670] libraryAPI success
+2021-05-05T23:08:26,613 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-672] libraryAPI success
+2021-05-05T23:08:26,624 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-674] libraryAPI success
+2021-05-05T23:08:26,917 INFO  [controller.task.LibraryTask] [DmmCash-POOL-1-THREAD-669] libraryAPI success
+2021-05-05T23:33:15,170 INFO  [com.dmm.Main] [main] start dmmgameplayer process.
+2021-05-05T23:33:15,177 INFO  [com.dmm.DMMApplication] [main] arg::dmmgameplayer://umamusume/cl/general/umamusume
+2021-05-05T23:33:16,180 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [APPLICATION VERSION] 2.5.8
+2021-05-05T23:33:16,180 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [RUNTIME VERSION] 1.8.0_121-_2017_02_16_14_59-b00
+2021-05-05T23:33:16,180 INFO  [com.dmm.DMMApplication] [JavaFX Application Thread] [OSNAME] Windows 10
+2021-05-05T23:33:18,029 INFO  [system.util.SystemUtil] [DmmCashDaemon-POOL-1-THREAD-2] boot check.

@@ -1,0 +1,9 @@
+2022-04-04T14:54:11,397 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-7713] [WebSocket error occured]
+2022-04-04T14:54:11,458 ERROR [net.websocket.WebSocketController] [WebSocketConnectReadThread-7713] wsdgp.games.dmm.com
+java.net.UnknownHostException: wsdgp.games.dmm.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at org.java_websocket.client.WebSocketClient.run(Unknown Source) [Java-WebSocket-1.4.0.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+2022-04-04T14:54:11,484 INFO  [net.websocket.WebSocketService] [DmmCashDaemon-POOL-1-THREAD-4] Failed to conenct to websocket server. Will Retry.
